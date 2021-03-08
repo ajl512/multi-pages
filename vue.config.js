@@ -29,7 +29,7 @@ getEntryPages(dirName) // readdirSyncc
 const CompressionWebpackPlugin = require('compression-webpack-plugin')
 const gzipSourceList = ['css', 'js']
 module.exports = {
-  publicPath: '/',
+  publicPath: './',
   outputDir: `./dist/${dirName}`, // build path
   pages: pages, // more pages config
   productionSourceMap: false, // don·t use map
